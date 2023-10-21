@@ -1,0 +1,13 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+.button{
+    justify-content: right;
+    margin-right: 70px;
+}

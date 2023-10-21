@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Inria Sans", sans-serif;
+  
+}
+
+body {
+  color: white;
+  background-image: url('/Shop Page.png');
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(31, 13, 13);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 20px 20px;
+  color: white;
+}
+
+.head {
+  background-color: rgb(31, 13, 13);
+  justify-content: space-between;
+  display: flex;
+  padding-left: 0px;
+  flex: 0.8;
+}
+
+.imgpoly{
+  padding-left: 50px;
+}
+
+.button {
+  justify-content: right;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(31, 13, 13);
+  color: white;
+}
+
+.btn {
+  background-color: rgb(31, 13, 13);
+  border: 1px solid white;
+  height: 50px;
+  margin-right: 10px;
+  padding: auto;
+  color: white;
+  border: 1px solid rgb(31, 13, 13);
+  border-radius: 8px;
+  font-family:' cord';
+  justify-content: space-between;
+}
+
+
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.landingOne {
+  color: white;
+  padding: 70px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rhead {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family:'cord';
+  width: 55%;
+  color: aqua;
+}
+
+.rfunds {
+  width: 55%;
+  height: fit-content;
+  padding-top: 20px;
+  font-family:'cord';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.rhead2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  width: 55%;
+  font-family:'cord';
+  color: aqua;
+}
+
+.rfunds2 {
+  width: 500px;
+  height: fit-content;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family:'cord';
+  margin-bottom: 20px;
+}
+
+.rfunds3{
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 75%;
+  font-family:'cord';
+  height: fit-content;
+}
+
+.heading-two {
+  margin-left: 200px;
+}
+
+.img{
+  transition: transform .7s;
+}
+
+.img:hover{
+  transform: scale(1.2);
+}
+
+.bttn {
+  background-color: rgb(215, 49, 49);
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(2, 2, 2, 0.2);
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.bttn:hover{
+  background-color: rgb(195, 93, 93);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(31, 13, 13);
+}
+.master{
+  color: white;
+  text-decoration: none;
+}
+.raise,
+.donate {
+  font-size: 1.5rem;
+}
+
+.don-fun{
+   width: 780px;
+   color: white;
+   margin-left: 22px;
+}
+
+.raise label {
+  display: block;
+  text-align: left;
+  margin: 1rem 8rem;
+}
+
+.donate .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem;
+  color: aqua;
+}
+.raise .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem;
+  color: aqua;
+}
+
+.raise .form {
+  text-align: center;
+}
+
+.raise input {
+  padding: 0.8rem 4rem;
+  outline: none;
+  border: 1px black solid;
+  width: 75%;
+  margin: 1rem 1rem;
+  background-color: #e8b7b7;
+  color: black;
+  font-weight: 700;
+  border-radius: 2rem;
+  box-shadow: 4px 4px 8px 8px hsl(249, 10%, 26%);
+}
+
+.submit-btn {
+  margin: 2rem;
+  padding: 1rem 2re m;
+  border: 1px solid pink;
+  cursor: pointer;
+  border-radius: 2rem;
+  font-family:' cord';
+  box-shadow: 0 8px 8px 0 rgba(239, 208, 208, 0.2);
+  background-color: rgb(38, 41, 40);
+  color: white;
+}
+
+.submit-btn:hover{
+  background-color: rgb(40, 7, 7);
+  font-family:' cord';
+}
+
+.heading{
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.card{
+  height: fit-content;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-head{
+  width: 30%;
+  height: fit-content;
+}
+
+.card-h{
+  width: 100%;
+  padding: 0px 20px 20px 35px;
+  justify-content: center;
+  text-align: left;
+  color: gold;
+}
+
+.descrip{
+  width: 700px;
+  padding: 0 50px;
+}
+
+.min-amt{
+  margin: 30px 0px 30px 0px;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  color: pink;
+  border-radius: 8px;
+  border: 1px solid red
+}
+
+.buy{
+  width: fit-content;
+  height: fit-content;
+  color: aqua;
+}
+
+.bttn3{
+  background-color: rgb(215, 49, 49);
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(239, 208, 208, 0.2);
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 150px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.bttn3:hover{
+  background-color: rgb(195, 93, 93);
+}
+
+.input-card{
+  border-radius: 8px;
+  border: 1px black solid;
+  width: 45%;
+  padding: 16px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 1rem 1rem 5rem;
+  background-color: rgb(224, 216, 204);
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 4px 4px 8px 8px hsl(249, 10%, 26%);
+}
+/* .footer{
+  height: 5px;
+  width: 100%;
+  background-color: rgb(31, 13, 13);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: white;
+} */
+p.rights{
+   text-align: center;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
